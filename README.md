@@ -1,2 +1,2 @@
 # whistle.comparison
-一个whistle的插件，可以便捷对比请求入参
+该插件是在Inspectors 自定义 Tab 通过在该自定义的 Tab 可以查看请求头的入参对比

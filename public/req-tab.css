@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+}
+
+#bodyResult {
+  padding: 0 10px 10px 10px;
+  text-align: center;
+  font-size: 20px;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+.container {
+  background-color: #f9f9f9;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 20px;
+}
+h2 {
+  color: #333;
+}
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.diff-table {
+  /*width: 100%;*/
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.diff-table th, .diff-table td {
+  padding: 10px;
+  border: 1px solid #AAAAAA;
+  text-align: center;
+  word-wrap: break-word; /* 允许在单词内换行 */
+  min-width: 100px;      /* 单元格的最小宽度 */
+  max-width: 200px;      /* 单元格的最大宽度 */
+}
+
+.diff-table th {
+  background-color: #f2f2f2;
+}
+.diff-table .key-only-in-json1 {
+  color: red;
+  background-color: #f8d7da;
+}
+.diff-table .key-only-in-json2 {
+  color: red;
+  background-color: #f8d7da;
+}
+.diff-table .key-diff {
+  color: red;
+  background-color: #f8d7da;
+}
+.diff-table .value-diff {
+  color: red;
+  background-color: #f8d7da;
+}
+.diff-table .value-same {
+  color: green;
+}
+
+
+
+
+
